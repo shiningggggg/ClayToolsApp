@@ -59,6 +59,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Linq_Exercise\LinqExerciseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Linq_Exercise\LinqExerciseControl.Designer.cs">
+      <DependentUpon>LinqExerciseControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Merge_Into\MergeInfoControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linq_Exercise\LinqExerciseControl.resx">
+      <DependentUpon>LinqExerciseControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Merge_Into\MergeInfoControl.resx">
       <DependentUpon>MergeInfoControl.cs</DependentUpon>
