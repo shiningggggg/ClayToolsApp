@@ -77,6 +77,12 @@
     <Compile Include="Partition_By\PartitionByControl.Designer.cs">
       <DependentUpon>PartitionByControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procedure\ProcedureControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Procedure\ProcedureControl.Designer.cs">
+      <DependentUpon>ProcedureControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TreeConfig.cs" />
@@ -100,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Partition_By\PartitionByControl.resx">
       <DependentUpon>PartitionByControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procedure\ProcedureControl.resx">
+      <DependentUpon>ProcedureControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
