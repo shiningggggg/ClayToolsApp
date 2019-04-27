@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Binary_Operate\BinaryDataOperateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Binary_Operate\BinaryDataOperateControl.Designer.cs">
+      <DependentUpon>BinaryDataOperateControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateTestTable\CreateTableControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="With_As\WithAsControl.Designer.cs">
       <DependentUpon>WithAsControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Binary_Operate\BinaryDataOperateControl.resx">
+      <DependentUpon>BinaryDataOperateControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateTestTable\CreateTableControl.resx">
       <DependentUpon>CreateTableControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +165,11 @@
     <Content Include="Resources\Player Play.png" />
     <Content Include="Resources\Player Stop.png" />
     <Content Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Office.Interop.Excel">
+      <Version>14.0.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -31,6 +31,7 @@
             this.btnInProcedure = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnInOutProcedure = new System.Windows.Forms.Button();
+            this.btnProcedureIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnInProcedure
@@ -62,10 +63,21 @@
             this.btnInOutProcedure.UseVisualStyleBackColor = true;
             this.btnInOutProcedure.Click += new System.EventHandler(this.btnInOutProcedure_Click);
             // 
+            // btnProcedureIn
+            // 
+            this.btnProcedureIn.Location = new System.Drawing.Point(339, 24);
+            this.btnProcedureIn.Name = "btnProcedureIn";
+            this.btnProcedureIn.Size = new System.Drawing.Size(163, 36);
+            this.btnProcedureIn.TabIndex = 4;
+            this.btnProcedureIn.Text = "为存过传In参数";
+            this.btnProcedureIn.UseVisualStyleBackColor = true;
+            this.btnProcedureIn.Click += new System.EventHandler(this.btnProcedureIn_Click);
+            // 
             // ProcedureControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnProcedureIn);
             this.Controls.Add(this.btnInOutProcedure);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnInProcedure);
@@ -80,5 +92,6 @@
         private System.Windows.Forms.Button btnInProcedure;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnInOutProcedure;
+        private System.Windows.Forms.Button btnProcedureIn;
     }
 }

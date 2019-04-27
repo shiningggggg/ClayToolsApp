@@ -51,5 +51,10 @@ namespace SqlExercise.Procedure
             this.textBox1.Text = sbuilder.ToString();
 
         }
+
+        private void btnProcedureIn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

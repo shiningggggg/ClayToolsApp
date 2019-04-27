@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlExercise", "SqlExercise\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlExercise.Base", "SqlExercise.Base\SqlExercise.Base.csproj", "{49D30C50-DDEC-4792-9A3B-307DDBB3941B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExcel", "ConsoleExcel\ConsoleExcel.csproj", "{589E1339-C9BB-432D-8B41-EA747A5FB379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadWriteBinaryFile", "ReadWriteBinaryFile\ReadWriteBinaryFile.csproj", "{F295C85B-4D30-4DBF-9B06-6F8278D89973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{49D30C50-DDEC-4792-9A3B-307DDBB3941B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D30C50-DDEC-4792-9A3B-307DDBB3941B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D30C50-DDEC-4792-9A3B-307DDBB3941B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589E1339-C9BB-432D-8B41-EA747A5FB379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589E1339-C9BB-432D-8B41-EA747A5FB379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589E1339-C9BB-432D-8B41-EA747A5FB379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589E1339-C9BB-432D-8B41-EA747A5FB379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F295C85B-4D30-4DBF-9B06-6F8278D89973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F295C85B-4D30-4DBF-9B06-6F8278D89973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F295C85B-4D30-4DBF-9B06-6F8278D89973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F295C85B-4D30-4DBF-9B06-6F8278D89973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
